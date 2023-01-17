@@ -4,4 +4,8 @@
 
 <title>Arasoft Ticket System</title>
 
-<iframe srcdoc={data.body} title="Transcript" />
+{#if data.fetch}
+	<iframe srcdoc={data.body} title="Transcript" />
+{:else}
+	<iframe src="/error" title="Error Page" />
+{/if}
