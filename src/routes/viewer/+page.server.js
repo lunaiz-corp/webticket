@@ -3,7 +3,7 @@ export async function load({ url, fetch }) {
 	let { ticketUrl } = Object.fromEntries(url.searchParams);
 
 	if (ticketUrl) {
-		if (ticketUrl.startsWith('https://cdn.discordapp.com/attachments/')) {
+		if (ticketUrl.startsWith('https://cdn.discordapp.com/attachments/') && ticketUrl.endsWith('.html')) {
 			try {
 				res = await fetch(ticketUrl);
 
