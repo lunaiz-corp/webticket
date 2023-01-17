@@ -5,6 +5,10 @@ export async function load({ url, fetch }) {
 	if (ticketUrl) {
 		if (ticketUrl.startsWith('https://cdn.discordapp.com/attachments/')) {
 			res = await fetch(ticketUrl);
+
+			if (!res.ok) {
+				res = await fetch('error');
+			}
 		} else {
 			res = await fetch('error');
 		}
