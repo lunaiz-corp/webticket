@@ -6,7 +6,11 @@ export async function load({ url, fetch }) {
 		if (ticketUrl.startsWith('https://cdn.discordapp.com/attachments/')) {
 			res = await fetch(ticketUrl);
 
-			if (!res.ok) {
+			if (
+				!res.ok ||
+				res.status !== 200 ||
+				!['text/plain', 'text/html'].includes(res.headers.get('content-type'))
+			) {
 				res = await fetch('error');
 			}
 		} else {
