@@ -4,13 +4,13 @@ export async function load({ url, fetch }) {
 
 	if (ticketUrl) {
 		if (ticketUrl.startsWith('https://cdn.discordapp.com/attachments/')) {
-			res = await fetch(ticketUrl);
+			try {
+				res = await fetch(ticketUrl);
 
-			if (
-				!res.ok ||
-				res.status !== 200 ||
-				!['text/plain', 'text/html'].includes(res.headers.get('content-type'))
-			) {
+				if (!res.ok) {
+					res = await fetch('error');
+				}
+			} catch (e) {
 				res = await fetch('error');
 			}
 		} else {
