@@ -562,9 +562,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ara-ticket-test@workspace:.":
+"ara-webticket@workspace:.":
   version: 0.0.0-use.local
-  resolution: "ara-ticket-test@workspace:."
+  resolution: "ara-webticket@workspace:."
   dependencies:
     "@sveltejs/adapter-node": ^1.0.0
     "@sveltejs/kit": ^1.0.0
