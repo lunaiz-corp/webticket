@@ -28,10 +28,7 @@ export async function load({ url, fetch }) {
 
 			if (response?.ok) {
 				return {
-					body: `
-		  	${await response.text()}
-			<script src="/assets/js/viewer.js"></script>
-		  `
+					body: `${await response.text()}<script src="/assets/js/viewer.js" defer></script>`
 				}
 			} else {
 				if (response?.status == 403 || response?.status == 404) {

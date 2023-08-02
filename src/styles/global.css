@@ -1,3 +1,19 @@
+@import url('https://cdn.jsdelivr.net/gh/sunn-us/SUIT@2.0.1/fonts/variable/woff2/SUIT-Variable.css');
+
+* {
+	font-family: 'SUIT Variable' !important;
+}
+
+::-moz-selection {
+	color: #000000;
+	background: #a8cce4;
+}
+
+::selection {
+	color: #000000;
+	background: #a8cce4;
+}
+
 body {
 	margin: 0;
 	padding: 0;

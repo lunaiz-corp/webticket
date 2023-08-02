@@ -39,22 +39,6 @@
 </div>
 
 <style>
-	@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css');
-
-	* {
-		font-family: 'Pretendard Variable' !important;
-	}
-
-	::-moz-selection {
-		color: #000000;
-		background: #a8cce4;
-	}
-
-	::selection {
-		color: #000000;
-		background: #a8cce4;
-	}
-
 	.errorWrapper {
 		height: 100vh;
 		width: 100vw;
