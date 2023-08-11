@@ -15,14 +15,14 @@ window.addEventListener('load', () => {
 			document.querySelector('discord-header').style.gap = '1.5rem'
 			document.querySelector('.discord-header-icon').style.width = 'unset'
 			document.querySelector('.discord-header-icon > img').style.height = '50px'
-			document.querySelector('.discord-header-text').lastChild.remove()
+
+			if (document.querySelector('.discord-header-text').lastChild.textContent.includes('This is the start of')) {
+				document.querySelector('.discord-header-text').lastChild.remove()
+			}
 	
 			/* 하단 푸터 삭제 */
-			for (let i in document.querySelectorAll('div a')) {
-				if (document.querySelectorAll('div a')[i].innerText) {
-					document.querySelectorAll('div a')[i].parentNode.parentNode.remove()
-					break
-				}
+			if (document.querySelector('discord-messages').lastChild.textContent.includes('Exported')) {
+				document.querySelector('discord-messages').lastChild.remove()
 			}
 	
 			/* 다운로드 버튼 추가 */
@@ -36,12 +36,37 @@ window.addEventListener('load', () => {
 			downloadBtn.addEventListener('click', () => {
 				window.open(ticketUrl)
 			})
-	
-			while (buttonParent.hasChildNodes()) {
-				buttonParent.removeChild(buttonParent.firstChild)
+
+			let actionRow = document.querySelector('.discord-action-row.hydrated')
+
+			if (buttonParent) {
+				while (buttonParent.hasChildNodes()) {
+					buttonParent.removeChild(buttonParent.firstChild)
+				}
+			} else {
+				let embedElement = document.querySelector('discord-message')
+				let compactIndent = embedElement.querySelector('.discord-message-compact-indent')
+
+				if (!compactIndent) {
+					compactIndent = document.createElement('div')
+					compactIndent.classList.add('discord-message-compact-indent')
+					embedElement.appendChild(compactIndent)
+				}
+				
+				let attachments = document.createElement('discord-attachments')
+				attachments.slot = 'components'
+				attachments.classList.add('discord-attachments')
+				attachments.classList.add('hydrated')
+
+				actionRow = document.createElement('discord-action-row')
+				actionRow.classList.add('discord-action-row')
+				actionRow.classList.add('hydrated')
+
+				attachments.appendChild(actionRow)
+				compactIndent.appendChild(attachments)
 			}
 	
-			document.querySelector('.discord-action-row.hydrated').appendChild(downloadBtn)
+			actionRow.appendChild(downloadBtn)
 
 			setTimeout(() => {
 				parent.document.querySelector('#loading').style.opacity = 0
@@ -85,5 +110,5 @@ window.addEventListener('load', () => {
 			window.changeTitle('웹 티켓을 초기화 하는 중 오류가 발생했어요.')
 			errorForm.form.submit()
 		}
-	}, 100)
+	}, 500)
 })
