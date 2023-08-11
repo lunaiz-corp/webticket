@@ -42,10 +42,20 @@ window.addEventListener('load', () => {
 			}
 	
 			document.querySelector('.discord-action-row.hydrated').appendChild(downloadBtn)
+
+			setTimeout(() => {
+				parent.document.querySelector('#loading').style.opacity = 0
+
+				setTimeout(() => {
+					parent.document.querySelector('#loading').style.display = 'none'
+				}, 100)
+			}, 500)
 		} catch (e) {
-			/* 아직 티켓 파일이 완전히 로드되지 못한 경우 */
-			if (e instanceof TypeError && retry <= 10) {
-				injectCustomComponents(retry + 1)
+			/* 아직 티켓 파일이 완전히 로드되지 못한 경우: 20초 동안 계속 시도해 보고 throw */
+			if (e instanceof TypeError && retry < 200) {
+				setTimeout(() => {
+					injectCustomComponents(retry + 1)
+				}, 100);
 				return
 			}
 			
@@ -58,21 +68,22 @@ window.addEventListener('load', () => {
 	
 			errorForm.form.method = 'post'
 			errorForm.form.action = '/error'
+			errorForm.form.target = '_parent'
 	
 			errorForm.input[0].name = 'message'
 			errorForm.input[0].value = '웹 티켓을 초기화 하는 중 오류가 발생했어요.'
 	
 			errorForm.input[1].name = 'description'
-			errorForm.input[1].value = `아래 오류 정보와 함께 관리자에게 문의해 주세요.<br /><br /><code>${e}</code>`
-	
-			document.body.appendChild(errorForm.form)
+			errorForm.input[1].value = `아래 오류 정보와 함께 관리자에게 문의하거나, 웹 티켓 링크를 다시 클릭해 주세요.<br /><br /><code>${e}</code>`
 	
 			errorForm.input.map((x) => {
 				errorForm.form.appendChild(x)
 			})
-	
+			
+			document.body.appendChild(errorForm.form)
+
 			window.changeTitle('웹 티켓을 초기화 하는 중 오류가 발생했어요.')
 			errorForm.form.submit()
 		}
-	})
+	}, 100)
 })

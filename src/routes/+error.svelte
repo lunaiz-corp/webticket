@@ -42,7 +42,7 @@
 	.errorWrapper {
 		height: 100vh;
 		width: 100vw;
-		background: #ffffff;
+		background: #36393e;
 	}
 
 	.error {
@@ -64,14 +64,14 @@
 		font-weight: 700;
 		line-height: 46px;
 		letter-spacing: -0.8px;
-		color: #000000;
+		color: #ffffff;
 	}
 
 	.error p {
 		margin: 12px 0 0 0;
 		line-height: 1.71;
 		letter-spacing: -0.2px;
-		color: #666;
+		color: #dcddde;
 	}
 
 	@media screen and (max-width: 767px) {
@@ -85,20 +85,6 @@
 
 		.error code {
 			font-size: 13px;
-		}
-	}
-
-	@media (prefers-color-scheme: dark) {
-		.errorWrapper {
-			background: #131516;
-		}
-
-		.error strong {
-			color: #ffffff;
-		}
-
-		.error p {
-			color: #a8a095;
 		}
 	}
 </style>
