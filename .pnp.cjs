@@ -35,7 +35,7 @@ const RAW_RUNTIME_STATE =
           ["prettier-plugin-svelte", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:2.9.0"],\
           ["svelte", "npm:3.55.1"],\
           ["svelte-check", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.0.2"],\
-          ["typescript", "patch:typescript@npm%3A4.9.4#optional!builtin<compat/typescript>::version=4.9.4&hash=289587"],\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["vercel", "npm:29.0.3"],\
           ["vite", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:4.0.4"]\
         ],\
@@ -4349,7 +4349,7 @@ const RAW_RUNTIME_STATE =
           ["prettier-plugin-svelte", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:2.9.0"],\
           ["svelte", "npm:3.55.1"],\
           ["svelte-check", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.0.2"],\
-          ["typescript", "patch:typescript@npm%3A4.9.4#optional!builtin<compat/typescript>::version=4.9.4&hash=289587"],\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["vercel", "npm:29.0.3"],\
           ["vite", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:4.0.4"]\
         ],\
@@ -11275,6 +11275,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/typescript-patch-32ada147aa-10c0.zip/node_modules/typescript/",\
         "packageDependencies": [\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7", {\
+        "packageLocation": "../../../../cache/others/berry/cache/typescript-patch-4778c7998b-10c0.zip/node_modules/typescript/",\
+        "packageDependencies": [\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "linkType": "HARD"\
       }]\
