@@ -33,7 +33,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-svelte3", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:4.0.0"],\
           ["prettier", "npm:3.1.1"],\
           ["prettier-plugin-svelte", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.1.2"],\
-          ["svelte", "npm:3.55.1"],\
+          ["svelte", "npm:4.2.8"],\
           ["svelte-check", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.0.2"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["vercel", "npm:29.0.3"],\
@@ -3034,6 +3034,15 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
+      ["npm:0.3.20", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@jridgewell-trace-mapping-npm-0.3.20-d90f282910-10c0.zip/node_modules/@jridgewell/trace-mapping/",\
+        "packageDependencies": [\
+          ["@jridgewell/trace-mapping", "npm:0.3.20"],\
+          ["@jridgewell/resolve-uri", "npm:3.1.1"],\
+          ["@jridgewell/sourcemap-codec", "npm:1.4.15"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:0.3.9", {\
         "packageLocation": "../../../../cache/others/berry/cache/@jridgewell-trace-mapping-npm-0.3.9-91625cd7fb-10c0.zip/node_modules/@jridgewell/trace-mapping/",\
         "packageDependencies": [\
@@ -3254,7 +3263,7 @@ const RAW_RUNTIME_STATE =
           ["sade", "npm:1.8.1"],\
           ["set-cookie-parser", "npm:2.5.1"],\
           ["sirv", "npm:2.0.2"],\
-          ["svelte", "npm:3.55.1"],\
+          ["svelte", "npm:4.2.8"],\
           ["tiny-glob", "npm:0.2.9"],\
           ["undici", "npm:5.22.0"],\
           ["vite", "virtual:ca524b9a64bde7c911e6a4a2eba817c1241cf6615a3aef9285c346cbef56056639c98f8b07e4c09eb083ae1589a4206c1bddf8dad6b8f99599e127ddc0df1a7a#npm:4.5.1"]\
@@ -3286,7 +3295,7 @@ const RAW_RUNTIME_STATE =
           ["deepmerge", "npm:4.3.1"],\
           ["kleur", "npm:4.1.5"],\
           ["magic-string", "npm:0.30.0"],\
-          ["svelte", "npm:3.55.1"],\
+          ["svelte", "npm:4.2.8"],\
           ["svelte-hmr", "virtual:59455eb783f06fa49fde3500374d591ab21353e74cb7a5875ae23e3693b6c1fc9f25eff13a2cebf32c74d25e3aa8b0ca295bc20f406587f381125c4e59fbf17c#npm:0.15.1"],\
           ["vite", "virtual:ca524b9a64bde7c911e6a4a2eba817c1241cf6615a3aef9285c346cbef56056639c98f8b07e4c09eb083ae1589a4206c1bddf8dad6b8f99599e127ddc0df1a7a#npm:4.5.1"],\
           ["vitefu", "virtual:59455eb783f06fa49fde3500374d591ab21353e74cb7a5875ae23e3693b6c1fc9f25eff13a2cebf32c74d25e3aa8b0ca295bc20f406587f381125c4e59fbf17c#npm:0.2.4"]\
@@ -3429,6 +3438,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/@types-estree-npm-1.0.0-eddde5b631-10c0.zip/node_modules/@types/estree/",\
         "packageDependencies": [\
           ["@types/estree", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.0.5", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@types-estree-npm-1.0.5-5b7faed3b4-10c0.zip/node_modules/@types/estree/",\
+        "packageDependencies": [\
+          ["@types/estree", "npm:1.0.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3999,6 +4015,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["acorn", [\
+      ["npm:8.11.3", {\
+        "packageLocation": "../../../../cache/others/berry/cache/acorn-npm-8.11.3-0d7ab48b38-10c0.zip/node_modules/acorn/",\
+        "packageDependencies": [\
+          ["acorn", "npm:8.11.3"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:8.8.1", {\
         "packageLocation": "../../../../cache/others/berry/cache/acorn-npm-8.8.1-20e4aea981-10c0.zip/node_modules/acorn/",\
         "packageDependencies": [\
@@ -4193,7 +4216,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-svelte3", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:4.0.0"],\
           ["prettier", "npm:3.1.1"],\
           ["prettier-plugin-svelte", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.1.2"],\
-          ["svelte", "npm:3.55.1"],\
+          ["svelte", "npm:4.2.8"],\
           ["svelte-check", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.0.2"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["vercel", "npm:29.0.3"],\
@@ -4243,6 +4266,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/argparse-npm-2.0.1-faff7999e6-10c0.zip/node_modules/argparse/",\
         "packageDependencies": [\
           ["argparse", "npm:2.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["aria-query", [\
+      ["npm:5.3.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/aria-query-npm-5.3.0-76575ac83b-10c0.zip/node_modules/aria-query/",\
+        "packageDependencies": [\
+          ["aria-query", "npm:5.3.0"],\
+          ["dequal", "npm:2.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4322,6 +4355,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/asynckit-npm-0.4.0-c718858525-10c0.zip/node_modules/asynckit/",\
         "packageDependencies": [\
           ["asynckit", "npm:0.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["axobject-query", [\
+      ["npm:3.2.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/axobject-query-npm-3.2.1-b147b3f32c-10c0.zip/node_modules/axobject-query/",\
+        "packageDependencies": [\
+          ["axobject-query", "npm:3.2.1"],\
+          ["dequal", "npm:2.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4865,6 +4908,20 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["code-red", [\
+      ["npm:1.0.4", {\
+        "packageLocation": "../../../../cache/others/berry/cache/code-red-npm-1.0.4-596bf4aa15-10c0.zip/node_modules/code-red/",\
+        "packageDependencies": [\
+          ["code-red", "npm:1.0.4"],\
+          ["@jridgewell/sourcemap-codec", "npm:1.4.15"],\
+          ["@types/estree", "npm:1.0.5"],\
+          ["acorn", "npm:8.11.3"],\
+          ["estree-walker", "npm:3.0.3"],\
+          ["periscopic", "npm:3.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["color-convert", [\
       ["npm:1.9.3", {\
         "packageLocation": "../../../../cache/others/berry/cache/color-convert-npm-1.9.3-1fe690075e-10c0.zip/node_modules/color-convert/",\
@@ -5043,6 +5100,17 @@ const RAW_RUNTIME_STATE =
           ["path-key", "npm:3.1.1"],\
           ["shebang-command", "npm:2.0.0"],\
           ["which", "npm:2.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["css-tree", [\
+      ["npm:2.3.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/css-tree-npm-2.3.1-6540d78e26-10c0.zip/node_modules/css-tree/",\
+        "packageDependencies": [\
+          ["css-tree", "npm:2.3.1"],\
+          ["mdn-data", "npm:2.0.30"],\
+          ["source-map-js", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5909,7 +5977,7 @@ const RAW_RUNTIME_STATE =
           ["@types/eslint", null],\
           ["@types/svelte", null],\
           ["eslint", "npm:8.32.0"],\
-          ["svelte", "npm:3.55.1"]\
+          ["svelte", "npm:4.2.8"]\
         ],\
         "packagePeers": [\
           "@types/eslint",\
@@ -7343,6 +7411,14 @@ const RAW_RUNTIME_STATE =
           ["@types/estree", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:3.0.2", {\
+        "packageLocation": "../../../../cache/others/berry/cache/is-reference-npm-3.0.2-a164dd9cbd-10c0.zip/node_modules/is-reference/",\
+        "packageDependencies": [\
+          ["is-reference", "npm:3.0.2"],\
+          ["@types/estree", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["is-stream", [\
@@ -7606,6 +7682,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["locate-character", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/locate-character-npm-3.0.0-40928dccbb-10c0.zip/node_modules/locate-character/",\
+        "packageDependencies": [\
+          ["locate-character", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["locate-path", [\
       ["npm:6.0.0", {\
         "packageLocation": "../../../../cache/others/berry/cache/locate-path-npm-6.0.0-06a1e4c528-10c0.zip/node_modules/locate-path/",\
@@ -7735,6 +7820,14 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["magic-string", "npm:0.30.0"],\
           ["@jridgewell/sourcemap-codec", "npm:1.4.14"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:0.30.5", {\
+        "packageLocation": "../../../../cache/others/berry/cache/magic-string-npm-0.30.5-dffb7e6a73-10c0.zip/node_modules/magic-string/",\
+        "packageDependencies": [\
+          ["magic-string", "npm:0.30.5"],\
+          ["@jridgewell/sourcemap-codec", "npm:1.4.15"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7946,6 +8039,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["mdast-util-to-string", "npm:3.2.0"],\
           ["@types/mdast", "npm:3.0.11"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mdn-data", [\
+      ["npm:2.0.30", {\
+        "packageLocation": "../../../../cache/others/berry/cache/mdn-data-npm-2.0.30-bf7b39c09a-10c0.zip/node_modules/mdn-data/",\
+        "packageDependencies": [\
+          ["mdn-data", "npm:2.0.30"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9498,7 +9600,7 @@ const RAW_RUNTIME_STATE =
           ["@types/prettier", null],\
           ["@types/svelte", null],\
           ["prettier", "npm:3.1.1"],\
-          ["svelte", "npm:3.55.1"]\
+          ["svelte", "npm:4.2.8"]\
         ],\
         "packagePeers": [\
           "@types/prettier",\
@@ -10633,10 +10735,23 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["svelte", [\
-      ["npm:3.55.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/svelte-npm-3.55.1-0dea483a5d-10c0.zip/node_modules/svelte/",\
+      ["npm:4.2.8", {\
+        "packageLocation": "../../../../cache/others/berry/cache/svelte-npm-4.2.8-42f12ed9c1-10c0.zip/node_modules/svelte/",\
         "packageDependencies": [\
-          ["svelte", "npm:3.55.1"]\
+          ["svelte", "npm:4.2.8"],\
+          ["@ampproject/remapping", "npm:2.2.1"],\
+          ["@jridgewell/sourcemap-codec", "npm:1.4.15"],\
+          ["@jridgewell/trace-mapping", "npm:0.3.20"],\
+          ["acorn", "npm:8.11.3"],\
+          ["aria-query", "npm:5.3.0"],\
+          ["axobject-query", "npm:3.2.1"],\
+          ["code-red", "npm:1.0.4"],\
+          ["css-tree", "npm:2.3.1"],\
+          ["estree-walker", "npm:3.0.3"],\
+          ["is-reference", "npm:3.0.2"],\
+          ["locate-character", "npm:3.0.0"],\
+          ["magic-string", "npm:0.30.5"],\
+          ["periscopic", "npm:3.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10660,7 +10775,7 @@ const RAW_RUNTIME_STATE =
           ["import-fresh", "npm:3.3.0"],\
           ["picocolors", "npm:1.0.0"],\
           ["sade", "npm:1.8.1"],\
-          ["svelte", "npm:3.55.1"],\
+          ["svelte", "npm:4.2.8"],\
           ["svelte-preprocess", "virtual:288a88ec870327d2346f676c7cfa87c708fd5039cfe5a5123abfd3c9345fdb0135dc17a3bd03b501964401388147c1915e0bcdcdfec60aa86a93539c99fc9370#npm:5.0.0"],\
           ["typescript", "patch:typescript@npm%3A4.9.4#optional!builtin<compat/typescript>::version=4.9.4&hash=289587"]\
         ],\
@@ -10684,7 +10799,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["svelte-hmr", "virtual:59455eb783f06fa49fde3500374d591ab21353e74cb7a5875ae23e3693b6c1fc9f25eff13a2cebf32c74d25e3aa8b0ca295bc20f406587f381125c4e59fbf17c#npm:0.15.1"],\
           ["@types/svelte", null],\
-          ["svelte", "npm:3.55.1"]\
+          ["svelte", "npm:4.2.8"]\
         ],\
         "packagePeers": [\
           "@types/svelte",\
@@ -10729,7 +10844,7 @@ const RAW_RUNTIME_STATE =
           ["strip-indent", "npm:3.0.0"],\
           ["stylus", null],\
           ["sugarss", null],\
-          ["svelte", "npm:3.55.1"],\
+          ["svelte", "npm:4.2.8"],\
           ["typescript", "patch:typescript@npm%3A4.9.4#optional!builtin<compat/typescript>::version=4.9.4&hash=289587"]\
         ],\
         "packagePeers": [\
