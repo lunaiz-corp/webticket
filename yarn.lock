@@ -2351,14 +2351,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-auto@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "@sveltejs/adapter-auto@npm:2.0.1"
+"@sveltejs/adapter-auto@npm:^3.0.0":
+  version: 3.1.0
+  resolution: "@sveltejs/adapter-auto@npm:3.1.0"
   dependencies:
-    import-meta-resolve: "npm:^3.0.0"
+    import-meta-resolve: "npm:^4.0.0"
   peerDependencies:
-    "@sveltejs/kit": ^1.0.0
-  checksum: 9c93bbb51b06f1e0ae1522776450703af900c5ce75ad41a5bb6895d0fb9fe1c43f006bfa49932a75220bf9b8e54941e7898c17a5e24d1cdf03e05279d7768685
+    "@sveltejs/kit": ^2.0.0
+  checksum: 9ba9d0aff2fdd1db0e673d30e9a59ede2e4a4e8624e6e50ff3cf2b4866d8f7fa181ae570daa2f09d987f5bc79fb82633db2d3b7cc1946664484fe1c22a0055d2
   languageName: node
   linkType: hard
 
@@ -3100,7 +3100,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ara-webticket@workspace:."
   dependencies:
-    "@sveltejs/adapter-auto": "npm:^2.0.1"
+    "@sveltejs/adapter-auto": "npm:^3.0.0"
     "@sveltejs/kit": "npm:^1.5.0"
     eslint: "npm:^8.28.0"
     eslint-config-prettier: "npm:^9.0.0"
@@ -5823,10 +5823,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"import-meta-resolve@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "import-meta-resolve@npm:3.0.0"
-  checksum: fd1810e01576216f080e55fec345e6c451e4f012d0089e96abf53e9466ac3ece05aaef2402dea50f2b9b859486773bebbd5b08221e1bf347e942969a084bb685
+"import-meta-resolve@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "import-meta-resolve@npm:4.0.0"
+  checksum: 709375e01f8c3a87b7870991ca29c630d71bb7e22b7bb0f622613173d87b41b4043b4a983800e6d38ab3867496a46f82d30df0cbc2e55792c91c23193eea67a1
   languageName: node
   linkType: hard
 
