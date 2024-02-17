@@ -16,7 +16,7 @@ export async function load({ url, fetch }) {
 	let { ticketUrl } = Object.fromEntries(url.searchParams)
 
 	if (ticketUrl) {
-		if (ticketUrl.startsWith('https://cdn.discordapp.com/attachments/') && ticketUrl.endsWith('.html')) {
+		if (ticketUrl.startsWith('https://cdn.discordapp.com/attachments/') && ticketUrl.includes('.html')) {
 			try {
 				response = await fetch(ticketUrl)
 			} catch (e) {
