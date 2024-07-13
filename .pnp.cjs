@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["eslint", "npm:8.32.0"],\
           ["eslint-config-prettier", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:9.1.0"],\
           ["eslint-plugin-svelte3", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:4.0.0"],\
-          ["prettier", "npm:3.1.1"],\
+          ["prettier", "npm:3.3.3"],\
           ["prettier-plugin-svelte", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.1.2"],\
           ["svelte", "npm:4.2.8"],\
           ["svelte-check", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.0.2"],\
@@ -4494,7 +4494,7 @@ const RAW_RUNTIME_STATE =
           ["eslint", "npm:8.32.0"],\
           ["eslint-config-prettier", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:9.1.0"],\
           ["eslint-plugin-svelte3", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:4.0.0"],\
-          ["prettier", "npm:3.1.1"],\
+          ["prettier", "npm:3.3.3"],\
           ["prettier-plugin-svelte", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.1.2"],\
           ["svelte", "npm:4.2.8"],\
           ["svelte-check", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.0.2"],\
@@ -9895,10 +9895,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:3.1.1", {\
-        "packageLocation": "./.yarn/unplugged/prettier-npm-3.1.1-072c31ec21/node_modules/prettier/",\
+      ["npm:3.3.3", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.3.3-e811f023f3/node_modules/prettier/",\
         "packageDependencies": [\
-          ["prettier", "npm:3.1.1"]\
+          ["prettier", "npm:3.3.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9917,7 +9917,7 @@ const RAW_RUNTIME_STATE =
           ["prettier-plugin-svelte", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.1.2"],\
           ["@types/prettier", null],\
           ["@types/svelte", null],\
-          ["prettier", "npm:3.1.1"],\
+          ["prettier", "npm:3.3.3"],\
           ["svelte", "npm:4.2.8"]\
         ],\
         "packagePeers": [\
