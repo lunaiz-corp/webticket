@@ -2460,13 +2460,13 @@ __metadata:
   linkType: hard
 
 "@sveltejs/adapter-auto@npm:^3.0.0":
-  version: 3.1.0
-  resolution: "@sveltejs/adapter-auto@npm:3.1.0"
+  version: 3.3.0
+  resolution: "@sveltejs/adapter-auto@npm:3.3.0"
   dependencies:
-    import-meta-resolve: "npm:^4.0.0"
+    import-meta-resolve: "npm:^4.1.0"
   peerDependencies:
     "@sveltejs/kit": ^2.0.0
-  checksum: 9ba9d0aff2fdd1db0e673d30e9a59ede2e4a4e8624e6e50ff3cf2b4866d8f7fa181ae570daa2f09d987f5bc79fb82633db2d3b7cc1946664484fe1c22a0055d2
+  checksum: d84c2175ab752f1ee2c4c2057fa31646b3773da6272a24b2bbd065d7aff5c7cf60729a9ad7258e2c25bcd61d561b2626d408caa2c1ba4ff4e93c1affdc784fc6
   languageName: node
   linkType: hard
 
@@ -6010,10 +6010,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"import-meta-resolve@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "import-meta-resolve@npm:4.0.0"
-  checksum: 709375e01f8c3a87b7870991ca29c630d71bb7e22b7bb0f622613173d87b41b4043b4a983800e6d38ab3867496a46f82d30df0cbc2e55792c91c23193eea67a1
+"import-meta-resolve@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "import-meta-resolve@npm:4.1.0"
+  checksum: 42f3284b0460635ddf105c4ad99c6716099c3ce76702602290ad5cbbcd295700cbc04e4bdf47bacf9e3f1a4cec2e1ff887dabc20458bef398f9de22ddff45ef5
   languageName: node
   linkType: hard
 
