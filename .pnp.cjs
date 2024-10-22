@@ -26,7 +26,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@sveltejs/adapter-auto", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.1.0"],\
+          ["@sveltejs/adapter-auto", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.3.0"],\
           ["@sveltejs/kit", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:1.15.9"],\
           ["eslint", "npm:8.32.0"],\
           ["eslint-config-prettier", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:9.1.0"],\
@@ -3496,20 +3496,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@sveltejs/adapter-auto", [\
-      ["npm:3.1.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@sveltejs-adapter-auto-npm-3.1.0-392fedfd23-10c0.zip/node_modules/@sveltejs/adapter-auto/",\
+      ["npm:3.3.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@sveltejs-adapter-auto-npm-3.3.0-e5104c342a-10c0.zip/node_modules/@sveltejs/adapter-auto/",\
         "packageDependencies": [\
-          ["@sveltejs/adapter-auto", "npm:3.1.0"]\
+          ["@sveltejs/adapter-auto", "npm:3.3.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.1.0", {\
-        "packageLocation": "./.yarn/__virtual__/@sveltejs-adapter-auto-virtual-1df087454f/5/cache/others/berry/cache/@sveltejs-adapter-auto-npm-3.1.0-392fedfd23-10c0.zip/node_modules/@sveltejs/adapter-auto/",\
+      ["virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.3.0", {\
+        "packageLocation": "./.yarn/__virtual__/@sveltejs-adapter-auto-virtual-40e36e7446/5/cache/others/berry/cache/@sveltejs-adapter-auto-npm-3.3.0-e5104c342a-10c0.zip/node_modules/@sveltejs/adapter-auto/",\
         "packageDependencies": [\
-          ["@sveltejs/adapter-auto", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.1.0"],\
+          ["@sveltejs/adapter-auto", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.3.0"],\
           ["@sveltejs/kit", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:1.15.9"],\
           ["@types/sveltejs__kit", null],\
-          ["import-meta-resolve", "npm:4.0.0"]\
+          ["import-meta-resolve", "npm:4.1.0"]\
         ],\
         "packagePeers": [\
           "@sveltejs/kit",\
@@ -4489,7 +4489,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["ara-webticket", "workspace:."],\
-          ["@sveltejs/adapter-auto", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.1.0"],\
+          ["@sveltejs/adapter-auto", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.3.0"],\
           ["@sveltejs/kit", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:1.15.9"],\
           ["eslint", "npm:8.32.0"],\
           ["eslint-config-prettier", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:9.1.0"],\
@@ -7436,10 +7436,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["import-meta-resolve", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/import-meta-resolve-npm-4.0.0-13a6ef4fd3-10c0.zip/node_modules/import-meta-resolve/",\
+      ["npm:4.1.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/import-meta-resolve-npm-4.1.0-6e93749986-10c0.zip/node_modules/import-meta-resolve/",\
         "packageDependencies": [\
-          ["import-meta-resolve", "npm:4.0.0"]\
+          ["import-meta-resolve", "npm:4.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
